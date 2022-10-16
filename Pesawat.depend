@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1665896285 source:d:\semester 3\grafika komputer\project pesawat\pesawat\main.cpp
+1665911480 source:d:\semester 3\grafika komputer\project pesawat\pesawat\main.cpp
 	<windows.h>
 	<GLUT/glut.h>
 	<GL/glut.h>
