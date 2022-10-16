@@ -44,16 +44,6 @@ void Reshape(int w1, int h1)
 	gluLookAt(x, y, z, x + lx,y + ly,z + lz, 0.0f,1.0f,0.0f);
 }
 
-void orientMe(float ang)
-{
-	// Fungsi ini untuk memutar arah kamera (tengok kiri/kanan)
-	lx = sin(ang/10);
-	lz = -cos(ang/10);
-	glLoadIdentity();
-	gluLookAt(x, y, z,x + lx,y + ly,z + lz, 0.0f,1.0f,0.0f);
-}
-
-
 void update(int value) {
 	    if (planeBankLeft) {
 	        angleX += 0.5;
@@ -231,5 +221,5 @@ int main(int argc, char **argv)
 }
 
 // Pesawat + Idle Animation + Movement + Kamera
-// Razqy Ganteng
-//Rina
+// Hanya Razqy Seorang
+
