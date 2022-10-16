@@ -6,6 +6,7 @@
 #endif
 #include <stdlib.h>
 #include <windows.h>
+#include <math.h>
 #define PI 3.14
 //variable untuk kamera
 float angle=0.0, deltaAngle = 0.0, ratio;
