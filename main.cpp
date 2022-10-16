@@ -220,7 +220,6 @@ int main(int argc, char **argv)
 }
 
 // Pesawat + Idle Animation + Movement + Kamera
-// Razqy26
+// Razqy26 Merge
 // CodenameRiq
 //E1E1121007 sayap
-
