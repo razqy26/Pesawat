@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1665888806 source:d:\semester 3\grafika komputer\project pesawat\pesawat\main.cpp
-	<math.h>
+1665896285 source:d:\semester 3\grafika komputer\project pesawat\pesawat\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
 	<GL/glut.h>
-	<stdio.h>
-	<string.h>
 	<stdlib.h>
+	<windows.h>
 
 1301111162 c:\program files (x86)\codeblocks\mingw\include\windows.h
 	<winresrc.h>
