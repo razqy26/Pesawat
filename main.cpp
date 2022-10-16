@@ -231,5 +231,5 @@ int main(int argc, char **argv)
 }
 
 // Pesawat + Idle Animation + Movement + Kamera
-// Razqy
+// Razqy Ganteng
 //Rina
