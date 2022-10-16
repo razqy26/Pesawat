@@ -69,6 +69,8 @@ void keyboard(unsigned char key, int x, int y)
 		case 'd': rotAngleY -= 2; break;
 		case 'q': rotAngleZ += 2; break;
 		case 'e': rotAngleZ -= 2; break;
+		case 'l': posZ -= 1; break;
+		case 'j': posZ += 1; break;
 		case 'i': posX -= 1; break;
 		case 'k': posX += 1; break;
 		case 'z' : exit(0);
