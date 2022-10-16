@@ -10,7 +10,7 @@
 #define PI 3.14
 //variable untuk kamera
 float angle=0.0, deltaAngle = 0.0, ratio;
-float x=-10.0f,y=25.0f,z=160.0f; // posisi awal kamera
+float x=-10.0f,y=25.0f,z=160.0f; // posisi awal kamerza
 float lx=0.0f,ly=0.0f,lz=-1.0f;
 int deltaMove = 0,h,w;
 //variable pesawat dan gedung
