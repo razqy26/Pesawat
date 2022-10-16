@@ -1,8 +1,11 @@
-#include <math.h>
+#include <windows.h>
+#ifdef _APPLE_
+#include <GLUT/glut.h>
+#else
 #include <GL/glut.h>
-#include <stdio.h>
-#include <string.h>
+#endif
 #include <stdlib.h>
+#include <windows.h>
 #define PI 3.14
 //variable untuk kamera
 float angle=0.0, deltaAngle = 0.0, ratio;
@@ -228,3 +231,4 @@ int main(int argc, char **argv)
 
 // Pesawat + Idle Animation + Movement + Kamera
 // Razqy
+//Rina
