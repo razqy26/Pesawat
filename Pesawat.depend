@@ -210,7 +210,14 @@
 1301111156 c:\program files\codeblocks\mingw\include\oleidl.h
 	<objfwd.h>
 
+1665944935 D
+	<math.h>
+
+976638172 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
+
 881782880 c:\program files\codeblocks\mingw\include\gl\glut.h
+
+881782880 963259b81e26f74a1b956569b783aa30422409
 	<windows.h>
 	<GL/gl.h>
 	<GL/glu.h>
@@ -244,7 +251,17 @@
 	<_mingw.h>
 	<stddef.h>
 
+1666079553 source:c:\grafikakomputer\pesawat\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<windows.h>
+	<math.h>
+
 1665944935 source:d:\file sam\grafkom\pesawat\main.cpp
+
+1665944935 63259b81e26f74a1b956569b783aa30422409
 	<windows.h>
 	<GLUT/glut.h>
 	<GL/glut.h>
@@ -455,6 +472,7 @@
 1301111156 c:\program files (x86)\codeblocks\mingw\include\oleidl.h
 	<objfwd.h>
 
+<<<<<<< HEAD
 881782880 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
 	<windows.h>
 	<GL/gl.h>
@@ -465,4 +483,8 @@
 1301111164 c:\program files (x86)\codeblocks\mingw\include\gl\glu.h
 	<stddef.h>
 	<GL/gl.h>
+=======
+1341006774 c:\program files (x86)\codeblocks\mingw\include\math.h
+	<_mingw.h>
+>>>>>>> a31de5293c2a8e6f58ac08ed4096098b1cced2ae
 
