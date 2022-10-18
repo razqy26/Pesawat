@@ -13,7 +13,7 @@ float angle=0.0, deltaAngle = 0.0, ratio;
 float x=-10.0f,y=25.0f,z=160.0f; // posisi awal kamerza
 float lx=0.0f,ly=0.0f,lz=-1.0f;
 int deltaMove = 0,h,w;
-//variable pesawat dan gedung
+//variable pesawat
 float posY = 0, posX = 0, posZ = 0, wingDownY=0, wingDownX=0, bodyDownX=0,bodyDownY=0, angleWing=0;
 static int rotAngleX =0, rotAngleY =0, rotAngleZ =0;
 int planeBankLeft = 1;
@@ -70,6 +70,8 @@ void keyboard(unsigned char key, int x, int y)
 		case 'd': rotAngleY -= 2; break;
 		case 'q': rotAngleZ += 2; break;
 		case 'e': rotAngleZ -= 2; break;
+		case 'l': posZ -= 1; break;
+		case 'j': posZ += 1; break;
 		case 'i': posX -= 1; break;
 		case 'k': posX += 1; break;
 		case 'z' : exit(0);
@@ -80,7 +82,7 @@ void keyboard(unsigned char key, int x, int y)
 
 void badanP()
 {
-    glColor3f(1.0, 0.0, 0.0);
+    glColor3f(0.32, 0.32, 0.32);
     glPushMatrix();
 	glTranslatef(-7.0f,12.0f,0.0f);
 	glRotated(90, 0, 1, 0);
@@ -136,7 +138,7 @@ void triangularPrism()
 
 void wingL(){
 	//wingLeft
-	glColor3f(0.0, 0.0, 1.0);
+	glColor3f(0.0, 1.0, 1.0);
 	glPushMatrix();
 	glTranslatef(1.0,11.0,0.0);
 	glRotated(-90,0,1,0);
@@ -159,7 +161,7 @@ void wingR(){
 
 void tailP(){
 	//Tail
-	glColor3f(0.0, 0.0, 1.0);
+	glColor3f(0.0, 1.0, 1.0);
 	glPushMatrix();
 	glTranslatef(15.0,13.0,0.0);
 	glRotated(-90,0,1,0);
@@ -221,7 +223,8 @@ int main(int argc, char **argv)
 }
 
 // Pesawat + Idle Animation + Movement + Kamera
-// Razqy26
+// Razqy Merge
 // CodenameRiq
 //E1E1121007 sayap
-
+// Sam (013)
+// Rin_89 sayapnya da patah
