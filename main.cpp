@@ -113,6 +113,7 @@ void badanP()
 void triangularPrism()
 {
     glBegin(GL_QUADS);
+
         glVertex3f(0.5, 0, 0.5);
         glVertex3f(0.5, 0, -0.5);
         glVertex3f(-0.5, 0, -0.5);
