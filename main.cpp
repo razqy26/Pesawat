@@ -80,6 +80,7 @@ void keyboard(unsigned char key, int x, int y)
 }
 
 void badanP()
+//Badan pesawat
 {
     glColor3f(0.32, 0.32, 0.32);
     glPushMatrix();
