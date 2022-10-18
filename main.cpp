@@ -6,10 +6,11 @@
 #endif
 #include <stdlib.h>
 #include <windows.h>
+#include <math.h>
 #define PI 3.14
 //variable untuk kamera
 float angle=0.0, deltaAngle = 0.0, ratio;
-float x=-10.0f,y=25.0f,z=160.0f; // posisi awal kamera
+float x=-10.0f,y=25.0f,z=160.0f; // posisi awal kamerza
 float lx=0.0f,ly=0.0f,lz=-1.0f;
 int deltaMove = 0,h,w;
 //variable pesawat
@@ -135,7 +136,6 @@ void triangularPrism()
         glVertex3f(-0.5,0,-0.5);
     glEnd();
 }
-
 void wingL(){
 	//wingLeft
 	glColor3f(0.0, 1.0, 1.0);
@@ -184,7 +184,6 @@ void tailP(){
 	glPopMatrix();
 }
 
-
 void display() {
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
@@ -223,3 +222,17 @@ int main(int argc, char **argv)
 }
 
 
+// Pesawat + Idle Animation + Movement + Kamera
+// Razqy Merge
+// CodenameRiq
+//E1E1121007 sayap
+// Sam (013)
+// Rin_89 sayapnya da patah
+// Sam (E1E121013)
+// saya tambah
+// itumi saaja
+// okelah
+//begitu 89
+//rinaa
+//triangular by rina
+//rn
