@@ -81,7 +81,7 @@ void keyboard(unsigned char key, int x, int y)
 
 void badanP()
 {
-    glColor3f(1.0, 0.0, 0.0);
+    glColor3f(0.32, 0.32, 0.32);
     glPushMatrix();
 	glTranslatef(-7.0f,12.0f,0.0f);
 	glRotated(90, 0, 1, 0);
@@ -137,7 +137,7 @@ void triangularPrism()
 
 void wingL(){
 	//wingLeft
-	glColor3f(0.0, 0.0, 1.0);
+	glColor3f(0.0, 1.0, 1.0);
 	glPushMatrix();
 	glTranslatef(1.0,11.0,0.0);
 	glRotated(-90,0,1,0);
@@ -160,7 +160,7 @@ void wingR(){
 
 void tailP(){
 	//Tail
-	glColor3f(0.0, 0.0, 1.0);
+	glColor3f(0.0, 1.0, 1.0);
 	glPushMatrix();
 	glTranslatef(15.0,13.0,0.0);
 	glRotated(-90,0,1,0);
