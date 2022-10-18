@@ -12,7 +12,7 @@ float angle=0.0, deltaAngle = 0.0, ratio;
 float x=-10.0f,y=25.0f,z=160.0f; // posisi awal kamera
 float lx=0.0f,ly=0.0f,lz=-1.0f;
 int deltaMove = 0,h,w;
-//variable pesawat dan gedung
+//variable pesawat
 float posY = 0, posX = 0, posZ = 0, wingDownY=0, wingDownX=0, bodyDownX=0,bodyDownY=0, angleWing=0;
 static int rotAngleX =0, rotAngleY =0, rotAngleZ =0;
 int planeBankLeft = 1;
@@ -82,7 +82,7 @@ void keyboard(unsigned char key, int x, int y)
 void badanP()
 //Badan pesawat
 {
-    glColor3f(1.0, 0.0, 0.0);
+    glColor3f(0.32, 0.32, 0.32);
     glPushMatrix();
 	glTranslatef(-7.0f,12.0f,0.0f);
 	glRotated(90, 0, 1, 0);
@@ -138,7 +138,7 @@ void triangularPrism()
 
 void wingL(){
 	//wingLeft
-	glColor3f(0.0, 0.0, 1.0);
+	glColor3f(0.0, 1.0, 1.0);
 	glPushMatrix();
 	glTranslatef(1.0,11.0,0.0);
 	glRotated(-90,0,1,0);
@@ -161,7 +161,7 @@ void wingR(){
 
 void tailP(){
 	//Tail
-	glColor3f(0.0, 0.0, 1.0);
+	glColor3f(0.0, 1.0, 1.0);
 	glPushMatrix();
 	glTranslatef(15.0,13.0,0.0);
 	glRotated(-90,0,1,0);
