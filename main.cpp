@@ -81,6 +81,7 @@ void keyboard(unsigned char key, int x, int y)
 }
 
 void badanP()
+//Badan pesawat
 {
     glColor3f(0.32, 0.32, 0.32);
     glPushMatrix();
@@ -113,7 +114,7 @@ void badanP()
 void triangularPrism()
 {
     glBegin(GL_QUADS);
-
+        glColor3f(0.0f,1.0f,1.0f);
         glVertex3f(0.5, 0, 0.5);
         glVertex3f(0.5, 0, -0.5);
         glVertex3f(-0.5, 0, -0.5);
@@ -136,7 +137,6 @@ void triangularPrism()
         glVertex3f(-0.5,0,-0.5);
     glEnd();
 }
-
 void wingL(){
 	//wingLeft
 	glColor3f(0.0, 1.0, 1.0);
@@ -229,3 +229,8 @@ int main(int argc, char **argv)
 //E1E1121007 sayap
 // Sam (013)
 // Rin_89 sayapnya da patah
+// Sam (E1E121013)
+// saya tambah
+// itumi saaja
+// okelah
+//begitu 89
