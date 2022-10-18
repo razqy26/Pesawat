@@ -111,31 +111,7 @@ void badanP()
 	glPopMatrix();
 
 }
-void triangularPrism()
-{
-    glBegin(GL_QUADS);
-        glVertex3f(0.5, 0, 0.5);
-        glVertex3f(0.5, 0, -0.5);
-        glVertex3f(-0.5, 0, -0.5);
-        glVertex3f(-0.5, 0, 0.5);
-        glVertex3f(0.5,0,-0.5);
-        glVertex3f(0.5,1,-0.5);
-        glVertex3f(-0.5,1,-0.5);
-        glVertex3f(-0.5,0,-0.5);
-        glVertex3f(0.5,1,-0.5);
-        glVertex3f(-0.5,1,-0.5);
-        glVertex3f(-0.5,0,0.5);
-        glVertex3f(0.5,0,0.5);
-    glEnd();
-    glBegin(GL_TRIANGLES);
-        glVertex3f(0.5,0,0.5);
-        glVertex3f(0.5,1,-0.5);
-        glVertex3f(0.5,0,-0.5);
-        glVertex3f(-0.5,0,0.5);
-        glVertex3f(-0.5,1,-0.5);
-        glVertex3f(-0.5,0,-0.5);
-    glEnd();
-}
+
 void wingL(){
 	//wingLeft
 	glColor3f(0.0, 1.0, 1.0);
@@ -144,7 +120,6 @@ void wingL(){
 	glRotated(-90,0,1,0);
 	glRotated(-90,0,0,1);
 	glScalef(0.5,25.5,5.0);
-	triangularPrism();
 	glPopMatrix();
 }
 
@@ -155,7 +130,6 @@ void wingR(){
 	glRotated(-90,0,1,0);
 	glRotated(90,0,0,1);
 	glScalef(0.5,25.5,5.0);
-	triangularPrism();
 	glPopMatrix();
 }
 
@@ -166,21 +140,18 @@ void tailP(){
 	glTranslatef(15.0,13.0,0.0);
 	glRotated(-90,0,1,0);
 	glScalef(0.5,8.0,5.0);
-	triangularPrism();
 	glPopMatrix();
 	glPushMatrix();
 	glTranslatef(15.0,13.0,0.0);
 	glRotated(-90,0,1,0);
 	glRotated(-90,0,0,1);
 	glScalef(0.5,8.0,5.0);
-	triangularPrism();
 	glPopMatrix();
 	glPushMatrix();
 	glTranslatef(15.0,13.0,0.0);
 	glRotated(-90,0,1,0);
 	glRotated(90,0,0,1);
 	glScalef(0.5,8.0,5.0);
-	triangularPrism();
 	glPopMatrix();
 }
 
