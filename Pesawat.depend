@@ -251,7 +251,7 @@
 	<_mingw.h>
 	<stddef.h>
 
-1666079507 source:c:\grafikakomputer\pesawat\main.cpp
+1666079553 source:c:\grafikakomputer\pesawat\main.cpp
 	<windows.h>
 	<GLUT/glut.h>
 	<GL/glut.h>
