@@ -222,37 +222,4 @@ int main(int argc, char **argv)
 	return(0);
 }
 
-// Pesawat + Idle Animation + Movement + Kamera
-// Razqy Merge
-// CodenameRiq
-//E1E1121007 sayap
-// Sam (E1E121013)
-// saya tambah
-// itumi saaja
-// okelah
-// 12-40
-//njgudtfgcvkj
-//fssfghhcghfhc
-//yuuuuuuuuhuuuuuuu
-//vjdydxdhvjvchddsdg
-//njgudtfgcvkj
-//fssfghhcghfhc
-//yuuuuuuuuhuuuuuuu
-//vjdydxdhvjvchddsdg
-// Pesawat + Idle Animation + Movement + Kamera
-// Razqy Merge
-// CodenameRiq
-//E1E1121007 sayap
-// Sam (E1E121013)
-// saya tambah
-// itumi saaja
-// okelah
-// 12-40
-//njgudtfgcvkj
-//fssfghhcghfhc
-//yuuuuuuuuhuuuuuuu
-//vjdydxdhvjvchddsdg
-//njgudtfgcvkj
-//fssfghhcghfhc
-//yuuuuuuuuhuuuuuuu
-//vjdydxdhvjvchddsdg
+
