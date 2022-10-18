@@ -221,5 +221,7 @@ int main(int argc, char **argv)
 }
 
 // Pesawat + Idle Animation + Movement + Kamera
-// Hanya Razqy Seorang
+// Razqy26
+// CodenameRiq
+//E1E1121007 sayap
 
