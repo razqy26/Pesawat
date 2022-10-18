@@ -184,10 +184,8 @@ void tailP(){
 	glPopMatrix();
 }
 
-
 void display() {
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
 	glPushMatrix();
 		glRotated(rotAngleX+10, 1, 0, 0);
 		glRotated(rotAngleY, 0, 1, 0);
@@ -204,7 +202,6 @@ void display() {
 	glutSwapBuffers();
 }
 
-
 int main(int argc, char **argv)
 {
 	glutInit(&argc, argv);
@@ -214,9 +211,8 @@ int main(int argc, char **argv)
 	glutCreateWindow("Pesawat");
 	glutDisplayFunc(display);
 	glutKeyboardFunc(keyboard);
-	glutIdleFunc(display);
 	glutReshapeFunc(Reshape);
-    glutTimerFunc(50, update, 0);
+    glutTimerFunc(0, update, 0);
 	init();
 	glutMainLoop();
 	return(0);
