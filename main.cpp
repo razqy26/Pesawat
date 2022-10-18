@@ -114,7 +114,6 @@ void badanP()
 void triangularPrism()
 {
     glBegin(GL_QUADS);
-        glColor3f(0.0f,1.0f,1.0f);
         glVertex3f(0.5, 0, 0.5);
         glVertex3f(0.5, 0, -0.5);
         glVertex3f(-0.5, 0, -0.5);
@@ -234,3 +233,11 @@ int main(int argc, char **argv)
 // okelah
 //begitu 89
 //rinaa
+//a
+//b
+//c
+//d
+//e
+//f
+//g
+//h
