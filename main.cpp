@@ -226,4 +226,7 @@ int main(int argc, char **argv)
 // Razqy Merge
 // CodenameRiq
 //E1E1121007 sayap
-// Sam (013)
+// Sam (E1E121013)
+// saya tambah
+// itumi saaja
+// okelah
