@@ -217,3 +217,109 @@ int main(int argc, char **argv)
 	glutMainLoop();
 	return(0);
 }
+<<<<<<< HEAD
+=======
+
+
+// Pesawat + Idle Animation + Movement + Kamera
+// Razqy Merge
+// CodenameRiq
+//E1E1121007 sayap
+// Sam (013)
+// Rin_89 sayapnya da patah
+// Sam (E1E121013)
+// saya tambah
+// itumi saaja
+// okelah
+//begitu 89
+//rinaa
+//triangular by rina
+//rn
+//1
+//2
+//3
+//4
+//5
+//6
+// Pesawat + Idle Animation + Movement + Kamera
+// Razqy Merge
+// CodenameRiq
+//E1E1121007 sayap
+// Sam (013)
+// Rin_89 sayapnya da patah
+// Sam (E1E121013)
+// saya tambah
+// itumi saaja
+// okelah
+//begitu 89
+//rinaa
+//triangular by rina
+//rn
+//1
+//2
+//3
+//4
+//5
+//6
+// Pesawat + Idle Animation + Movement + Kamera
+// Razqy Merge
+// CodenameRiq
+//E1E1121007 sayap
+// Sam (013)
+// Rin_89 sayapnya da patah
+// Sam (E1E121013)
+// saya tambah
+// itumi saaja
+// okelah
+//begitu 89
+//rinaa
+//triangular by rina
+//rn
+//1
+//2
+//3
+//4
+//5
+//6
+// Pesawat + Idle Animation + Movement + Kamera
+// Razqy Merge
+// CodenameRiq
+//E1E1121007 sayap
+// Sam (013)
+// Rin_89 sayapnya da patah
+// Sam (E1E121013)
+// saya tambah
+// itumi saaja
+// okelah
+//begitu 89
+//rinaa
+//triangular by rina
+//rn
+//1
+//2
+//3
+//4
+//5
+//6
+// Pesawat + Idle Animation + Movement + Kamera
+// Razqy Merge
+// CodenameRiq
+//E1E1121007 sayap
+// Sam (013)
+// Rin_89 sayapnya da patah
+// Sam (E1E121013)
+// saya tambah
+// itumi saaja
+// okelah
+//begitu 89
+//rinaa
+//triangular by rina
+//rn
+//1
+//2
+//3
+//4
+//5
+//6
+//7
+>>>>>>> 1
